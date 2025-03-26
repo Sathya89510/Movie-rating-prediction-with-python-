@@ -1,0 +1,27 @@
+movie-rating-prediction/
+│
+├── data/
+│   ├── raw/                # Original dataset files
+│   ├── processed/          # Cleaned/processed data
+│   └── external/           # Additional data sources
+│
+├── notebooks/
+│   ├── 01_eda.ipynb        # Exploratory Data Analysis
+│   ├── 02_preprocessing.ipynb
+│   └── 03_modeling.ipynb
+│
+├── src/
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   └── train_model.py
+│
+├── models/                 # Trained models
+│   ├── regression_model.pkl
+│   └── model_metrics.txt
+│
+├── reports/
+│   ├── figures/            # Visualizations
+│   └── report.md           # Final report
+│
+├── requirements.txt        # Dependencies
+└── README.md               # Project overview
